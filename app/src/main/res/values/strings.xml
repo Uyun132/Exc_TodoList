@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Exc_TodoList</string>
+    <string name="inp_nama">Masukan Nama</string>
+    <string name="inp_pass">Masukan Password</string>
+    <string name="signin">SIGN IN</string>
+
+</resources>
