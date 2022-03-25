@@ -27,6 +27,7 @@
         android:gravity="center"
         android:shadowColor="#000000"
         android:shadowRadius="10"
+        android:clickable="true"
         android:text="Welcome In Todo App"
         android:textColor="#FFFFFF"
         android:textSize="34sp"
@@ -61,7 +62,6 @@
         android:hint="@string/inp_pass"
         android:inputType="textPassword"
         android:paddingLeft="20dp"
-
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -105,5 +105,28 @@
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintWidth_percent="0.7" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="140dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginStart="100dp"
+        android:text="New to Todo App?"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/layRegis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="140dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginRight="124dp"
+        android:text="@string/register"
+        android:textColor="@color/teal_700"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

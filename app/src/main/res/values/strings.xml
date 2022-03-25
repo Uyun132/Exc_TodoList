@@ -1,7 +1,11 @@
 <resources>
-    <string name="app_name">Exc_TodoList</string>
+    <string name="app_name">TodoList</string>
+    <string name="app_name2">Registrasi</string>
     <string name="inp_nama">Masukan Nama</string>
     <string name="inp_pass">Masukan Password</string>
     <string name="signin">SIGN IN</string>
+    <string name="register">REGISTER</string>
+    <string name="inp_repass">Masukan Kembali Password</string>
+    <string name="inp_email">Masukan Email</string>
 
 </resources>

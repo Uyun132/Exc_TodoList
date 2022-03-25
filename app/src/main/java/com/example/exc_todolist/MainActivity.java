@@ -7,12 +7,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.material.snackbar.Snackbar;
 
 public class MainActivity extends AppCompatActivity {
 
+    TextView txRegister;
     Button btSign;
     EditText edNama, edPass;
     String nama, password;
@@ -26,7 +28,21 @@ public class MainActivity extends AppCompatActivity {
         btSign = findViewById(R.id.btnSignin);
         edNama = findViewById(R.id.layNama);
         edPass = findViewById(R.id.layPass);
+        txRegister = findViewById(R.id.layRegis);
 
+        // Registrasi
+        txRegister.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast t = Toast.makeText(getApplicationContext(), "OKEEE", Toast.LENGTH_LONG);
+                t.show();
+
+                Intent i = new Intent(getApplicationContext(), HalamanRegistrasi.class);
+                startActivity(i);
+            }
+        });
+        
+        // Sign In
         btSign.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
