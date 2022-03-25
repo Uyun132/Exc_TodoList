@@ -7,5 +7,8 @@
     <string name="register">REGISTER</string>
     <string name="inp_repass">Masukan Kembali Password</string>
     <string name="inp_email">Masukan Email</string>
+    <string name="inp_task">Masukan Task</string>
+    <string name="inp_jenis_task">Masukan Jenis Task</string>
+    <string name="inp_lama_task">Masukan Lama Task</string>
 
 </resources>

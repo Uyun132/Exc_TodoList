@@ -8,33 +8,35 @@
 
     tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="134dp"
-        android:layout_height="117dp"
-        android:layout_marginTop="64dp"
+    <Button
+        android:id="@+id/btnSignin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_bg"
+        android:text="@string/signin"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/desain"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintVertical_bias="0.751"
+        app:layout_constraintWidth_percent="0.7" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/layPass"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
-        android:gravity="center"
-        android:shadowColor="#000000"
-        android:shadowRadius="10"
-        android:clickable="true"
-        android:text="Welcome In Todo App"
-        android:textColor="#FFFFFF"
-        android:textSize="34sp"
-        android:textStyle="bold"
+        android:background="@drawable/edttext_bg"
+        android:hint="@string/inp_pass"
+        android:inputType="textPassword"
+        android:paddingLeft="20dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.63"
+        app:layout_constraintWidth_percent="0.7" />
 
     <EditText
         android:id="@+id/layNama"
@@ -54,22 +56,16 @@
         app:layout_constraintVertical_bias="0.5"
         app:layout_constraintWidth_percent="0.7" />
 
-    <EditText
-        android:id="@+id/layPass"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:background="@drawable/edttext_bg"
-        android:hint="@string/inp_pass"
-        android:inputType="textPassword"
-        android:paddingLeft="20dp"
-
-        app:layout_constraintBottom_toBottomOf="parent"
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="28dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.63"
-        app:layout_constraintWidth_percent="0.7" />
+        app:srcCompat="@drawable/desain"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView2"
@@ -93,18 +89,24 @@
         app:layout_constraintBottom_toTopOf="@+id/layPass"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
-        android:id="@+id/btnSignin"
-        android:layout_width="0dp"
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="170dp"
-        android:background="@drawable/btn_bg"
-        android:text="@string/signin"
+        android:clickable="true"
+        android:gravity="center"
+        android:shadowColor="#000000"
+        android:shadowRadius="10"
+        android:text="Welcome In Todo App"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintWidth_percent="0.7" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.305" />
 
     <TextView
         android:id="@+id/textView4"

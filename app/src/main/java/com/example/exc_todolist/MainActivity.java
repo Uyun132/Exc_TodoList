@@ -58,13 +58,13 @@ public class MainActivity extends AppCompatActivity {
                     if (nama.equals(logUser) && password.equals(logPass)) {
                         Toast t = Toast.makeText(getApplicationContext(), "Login Sukses!", Toast.LENGTH_LONG);
                         t.show();
-//                        Intent i = new Intent(MainActivity.this,ActivityKedua.class);
-//
-//                        Bundle b = new Bundle();
-//                        b.putString("a", nama.trim());
-//                        b.putString("b", password.trim());
-//                        i.putExtras(b);
-//                        startActivity(i);
+                        Intent i = new Intent(MainActivity.this,HalamanTask.class);
+
+                        Bundle b = new Bundle();
+                        b.putString("a", nama.trim());
+                        b.putString("b", password.trim());
+                        i.putExtras(b);
+                        startActivity(i);
 
                         //LOL
                     } else{
