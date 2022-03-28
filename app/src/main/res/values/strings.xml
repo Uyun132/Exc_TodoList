@@ -10,5 +10,7 @@
     <string name="inp_task">Masukan Task</string>
     <string name="inp_jenis_task">Masukan Jenis Task</string>
     <string name="inp_lama_task">Masukan Lama Task</string>
+    <string name="mSubmit">Submit</string>
+    <string name="mLogout">Logout</string>
 
 </resources>

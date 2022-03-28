@@ -128,7 +128,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonRegis"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/register"

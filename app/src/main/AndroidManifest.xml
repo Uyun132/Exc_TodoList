@@ -15,7 +15,7 @@
         </activity>
         <activity
             android:name=".HalamanTask"
-            android:parentActivityName=".MainActivity">
+            >
 
         </activity>
         <activity
